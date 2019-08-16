@@ -1,8 +1,8 @@
 
-byte bpm = 120; // beats per minute
+byte BPM = 120; // beats per minute
 
 // calculate how many milliseconds long a sixteenth note is at this tempo
-long BeatDuration16 = round((60000 / bpm)/4);
+long BeatDuration16 = round((60000 / BPM)/4);
 
 long lastBeat = 0;
 int sixteenths = 0;
